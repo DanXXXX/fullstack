@@ -1,12 +1,13 @@
-const express = require('express')
-const app = express()
-const port = 8000
-const { countriesData } = require('./countriesData.json')
+const express = require('express');
+const app = express();
+const  countriesData  = require('./countriesData.json');
+const port = 8000;
 
 app.get('/all', (req, res) => {
-  res.send('./countriesData.json')
+  console.log('countriesData', countriesData);
+  res.send(countriesData);
 })
 
 app.listen(port, () => {
-  console.log('server started on port:' + port)
+  console.log('server started on port:' + port);
 })
