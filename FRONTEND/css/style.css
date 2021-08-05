@@ -11,3 +11,16 @@ img {
 	width: auto;
 	height: auto;
 }
+.header__title {
+	font-size: 3rem;
+	margin: 3rem;
+	text-align: center;
+}
+.btn {
+	width: 9rem;
+	margin-left: 3rem;
+	padding: 3rem;
+	text-align: center;
+	border-radius: 10rem;
+	background-color: aqua;
+}
